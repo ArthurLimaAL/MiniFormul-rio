@@ -1,6 +1,38 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 
-.Fiel{
-  max-width: 10%;
+
+.Cabeçalho {
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+
+.Fiel {
+  max-width: 100%;
   width: 100%;
+  background-color: whitesmoke;
   border: 2px solid rgb(0, 0, 0);
+  box-shadow: 2px 7px 9px rgba(0, 0, 0, 0.658);
+}
+
+.Elementos{
+
+  text-align: center;
+}
+
+body {
+
+  background: linear-gradient(to bottom, #d447ff, #44004a);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+.FormulárioBase {
+  position: absolute;
+  left: 38%;
 }
