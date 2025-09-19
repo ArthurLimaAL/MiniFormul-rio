@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imgs/ICON.png">
+    <link rel="stylesheet" href="style.css">
+
     <title>Formulário</title>
 </head>
 
@@ -15,7 +18,7 @@
     </header>
 
     <form>
-        <fieldset>
+        <fieldset class="Fiel">
             <legend>Informações básicas</legend>
             <label>Nome:</label>
             <input type="text" name="nome" placeholder="Insira seu nome" required>
@@ -34,6 +37,9 @@
             <input type="date" name="nascimento" required>
             <br><br>
 
+            <textarea name="mensagem" rows="3" cols="40" placeholder="Escreva algo positivo sobre você..."></textarea>
+
+            <br><br>
             <button type="submit">Enviar</button>
             <button type="reset">Limpar</button>
         </fieldset>
